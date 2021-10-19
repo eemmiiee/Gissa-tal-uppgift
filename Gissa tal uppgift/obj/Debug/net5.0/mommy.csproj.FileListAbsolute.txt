@@ -1,0 +1,16 @@
+C:\Users\Admin\Documents\mommy\obj\Debug\net5.0\mommy.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\mommy\obj\Debug\net5.0\mommy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\mommy\obj\Debug\net5.0\mommy.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\mommy\obj\Debug\net5.0\mommy.AssemblyInfo.cs
+C:\Users\Admin\Documents\mommy\obj\Debug\net5.0\mommy.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\mommy\bin\Debug\net5.0\mommy.exe
+C:\Users\Admin\Documents\mommy\bin\Debug\net5.0\mommy.deps.json
+C:\Users\Admin\Documents\mommy\bin\Debug\net5.0\mommy.runtimeconfig.json
+C:\Users\Admin\Documents\mommy\bin\Debug\net5.0\mommy.runtimeconfig.dev.json
+C:\Users\Admin\Documents\mommy\bin\Debug\net5.0\mommy.dll
+C:\Users\Admin\Documents\mommy\bin\Debug\net5.0\ref\mommy.dll
+C:\Users\Admin\Documents\mommy\bin\Debug\net5.0\mommy.pdb
+C:\Users\Admin\Documents\mommy\obj\Debug\net5.0\mommy.dll
+C:\Users\Admin\Documents\mommy\obj\Debug\net5.0\ref\mommy.dll
+C:\Users\Admin\Documents\mommy\obj\Debug\net5.0\mommy.pdb
+C:\Users\Admin\Documents\mommy\obj\Debug\net5.0\mommy.genruntimeconfig.cache
