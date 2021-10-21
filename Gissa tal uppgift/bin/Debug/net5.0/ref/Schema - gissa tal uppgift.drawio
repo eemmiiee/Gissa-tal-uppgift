@@ -1,0 +1,139 @@
+<mxfile host="app.diagrams.net" modified="2021-10-21T08:52:28.004Z" agent="5.0 (X11; CrOS x86_64 14150.57.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.97 Safari/537.36" etag="nM5v2t0MCtckNa3yThdS" version="15.5.4" type="github">
+  <diagram id="a-QY4CpiI-KiuPJ1DJZA" name="Page-1">
+    <mxGraphModel dx="1019" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tojmHjtVUvZlWgiBfPvz-1" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tojmHjtVUvZlWgiBfPvz-4" value="Utmatning:&lt;br&gt;&quot;Gissa ett heltal mellan 1 till 100&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tojmHjtVUvZlWgiBfPvz-5" value="Inmatning:&lt;br&gt;Det heltal man anget" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="351" y="300" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tojmHjtVUvZlWgiBfPvz-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" target="tojmHjtVUvZlWgiBfPvz-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="579.5" as="sourcePoint" />
+            <mxPoint x="280" y="579.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p5xkQYXNCrFrngorLj2G-3" value="För lågt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tojmHjtVUvZlWgiBfPvz-12" vertex="1" connectable="0">
+          <mxGeometry x="-0.1713" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tojmHjtVUvZlWgiBfPvz-15" value="Utmatning:&lt;br&gt;Din gissning är för högt" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="630" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tojmHjtVUvZlWgiBfPvz-16" value="Utmatning:&lt;br&gt;Din gissning är för lågt" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tojmHjtVUvZlWgiBfPvz-17" value="Stop" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="357" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tojmHjtVUvZlWgiBfPvz-25" value="Utmatning:&lt;br&gt;Du har gissat rätt slumptal!" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tojmHjtVUvZlWgiBfPvz-26" value="Rätt svar" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;" parent="1" target="tojmHjtVUvZlWgiBfPvz-25" edge="1" source="tojmHjtVUvZlWgiBfPvz-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413" y="480" as="sourcePoint" />
+            <mxPoint x="413" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p5xkQYXNCrFrngorLj2G-2" value="För högt" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.015;entryY=0.52;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tojmHjtVUvZlWgiBfPvz-7" edge="1" target="tojmHjtVUvZlWgiBfPvz-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="474" y="450" as="sourcePoint" />
+            <mxPoint x="550" y="440" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p5xkQYXNCrFrngorLj2G-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.571;exitY=0.007;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="tojmHjtVUvZlWgiBfPvz-1" edge="1" source="tojmHjtVUvZlWgiBfPvz-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="410" as="sourcePoint" />
+            <mxPoint x="230" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p5xkQYXNCrFrngorLj2G-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" target="tojmHjtVUvZlWgiBfPvz-1" edge="1" source="tojmHjtVUvZlWgiBfPvz-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="609.5" y="410" as="sourcePoint" />
+            <mxPoint x="610" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qYylz1pGi136feYYbqq2-1" value="Utmatning:&lt;br&gt;Antal gissningar till det rätta svaret" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="357" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qYylz1pGi136feYYbqq2-2" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="750" as="sourcePoint" />
+            <mxPoint x="414" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qYylz1pGi136feYYbqq2-4" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="870" as="sourcePoint" />
+            <mxPoint x="414" y="930" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="414" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tojmHjtVUvZlWgiBfPvz-7" value="Anget tal = slumtalet" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="377" y="540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HWDmYWzei-tP3yJwvJTT-2" value="Utmatning:&lt;br&gt;Kollar om det är en sffra eller siffror man angett" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HWDmYWzei-tP3yJwvJTT-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tojmHjtVUvZlWgiBfPvz-1" target="tojmHjtVUvZlWgiBfPvz-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="150" as="sourcePoint" />
+            <mxPoint x="460" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HWDmYWzei-tP3yJwvJTT-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tojmHjtVUvZlWgiBfPvz-4" target="tojmHjtVUvZlWgiBfPvz-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="290" as="sourcePoint" />
+            <mxPoint x="330" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HWDmYWzei-tP3yJwvJTT-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tojmHjtVUvZlWgiBfPvz-5" target="HWDmYWzei-tP3yJwvJTT-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="440" as="sourcePoint" />
+            <mxPoint x="310" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HWDmYWzei-tP3yJwvJTT-7" value="Enbart ifall det man angett är ett tal" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.435;exitY=1.035;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="HWDmYWzei-tP3yJwvJTT-2" target="tojmHjtVUvZlWgiBfPvz-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="417" y="480" as="sourcePoint" />
+            <mxPoint x="350" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HWDmYWzei-tP3yJwvJTT-11" value="Utmatning:&lt;br&gt;&quot;Detdär va inte ett heltal!&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="530" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HWDmYWzei-tP3yJwvJTT-13" value="Om man råkat mata in ex. bokstav" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HWDmYWzei-tP3yJwvJTT-2" target="HWDmYWzei-tP3yJwvJTT-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="470" as="sourcePoint" />
+            <mxPoint x="460" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HWDmYWzei-tP3yJwvJTT-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.562;exitY=-0.003;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="HWDmYWzei-tP3yJwvJTT-11" target="tojmHjtVUvZlWgiBfPvz-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="390" as="sourcePoint" />
+            <mxPoint x="537" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="597" y="85" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
